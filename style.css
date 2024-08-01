@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 1rem;
+}
+
+.box {
+  padding: 2.5rem;
+}
+
+.box > h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+  margin: 1.2rem 0;
+  color: white;
+  text-transform: uppercase;
+}
+
+.box > p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: white;
+}
+
+.box > button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: 2px solid white;
+  border-radius: 2rem;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+
+#box1 {
+  background-color: #d97b2a;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+#box2 {
+  background-color: #0d7a80;
+}
+
+#box3 {
+  background-color: #165759;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+#box1 > button {
+  color: #d97b2a;
+}
+#box1 > button:hover {
+  background-color: #d97b2a;
+  color: white;
+}
+#box2 > button {
+  color: #0d7a80;
+}
+#box2 > button:hover {
+  background-color: #0d7a80;
+  color: white;
+}
+#box3 > button {
+  color: #165759;
+}
+#box3 > button:hover {
+  background-color: #165759;
+  color: white;
+}
